@@ -7,10 +7,11 @@ import opcoesImg from '../assets/Opcoes.png';
 export function Overview() {
   return (
     <section className={styles.overviewContainer}>
-      <article className={styles.description}>
-        <strong>Como funciona ?</strong>
-        <p>Nossa plataforma para locação de quadras exclusivamente através de um ChatBot, onde você pode seguir os caminhos como locador e locatário. Nossa intenção é que seja intuitivo e fácil de utilizar.</p>
-
+      <article>
+        <div className={styles.description}>
+          <strong>Como funciona ?</strong>
+          <p>Nossa plataforma para locação de quadras exclusivamente através de um ChatBot, onde você pode seguir os caminhos como locador e locatário. Nossa intenção é que seja intuitivo e fácil de utilizar.</p>
+        </div>
         <div className={styles.cards}>
           <div className={styles.card}>
             <p>Tela inicial do ChatBot</p>

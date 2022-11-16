@@ -4,6 +4,7 @@
   justify-content: space-between;
   flex-direction: column;
   border-top: 1.5px solid black;
+  margin-bottom: 2.5rem;
 }
 
 .authorsContainer strong {
@@ -19,12 +20,17 @@
 
 .author {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  background: var(--gray-800);
+  border: 3px solid var(--red-800);
+  border-radius: 20px;
+  padding: 2rem
 }
 
 .author + .author {
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 
 .authorImg {
@@ -47,7 +53,7 @@
   font-weight: bold;
   line-height: 1rem;
   margin-bottom: 1rem;
-  color: var(--gray-800);
+  color: var(--white);
 }
 
 .authorContacts {
@@ -96,7 +102,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--gray-800);
+  background: var(--gray-900);
   border-radius: 4px;
   padding: 0.25rem;
   cursor: pointer;
